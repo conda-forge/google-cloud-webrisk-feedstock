@@ -1,6 +1,6 @@
 {% set name = "google-cloud-webrisk" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "ddbcc792d348a047263020cc49287b3ad712cca12f051dc848f61a52f167c33b" %}
+{% set version = "1.4.0" %}
+{% set sha256 = "414f652e88fbb4ff424584665e791a410e7d33bb2cb2a07a1b4070cd0b4f7008" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - pip >=18.1
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - google-api-core-grpc >=1.26.0,<2.0.0dev
     - proto-plus >=1.10.0
     - packaging >=14.3
 
