@@ -1,11 +1,11 @@
-About google-cloud-webrisk
-==========================
+About google-cloud-webrisk-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-webrisk-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-webrisk
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-webrisk-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Web Risk API client library
 
