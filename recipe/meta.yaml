@@ -1,6 +1,6 @@
 {% set name = "google-cloud-webrisk" %}
-{% set version = "1.11.1" %}
-{% set sha256 = "5d617acb85a010a14ca3981de6168bb921a832c0f78a4abfe5c2e2c2628adb41" %}
+{% set version = "1.12.0" %}
+{% set sha256 = "c469c88c9e11708972479e4b0cc8f7d50852f709ce78382acef4b0aa9b89043d" %}
 
 package:
   name: {{ name|lower }}
@@ -36,9 +36,9 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: Google Cloud Web Risk API client library
-  description: "Web Risk API is a Google Cloud service that lets client applications check URLs against Google's constantly updated lists of unsafe web resources. Unsafe web resources include social engineering sites such as phishing and deceptive sites and sites that host malware or unwanted software. With the Web Risk\
-    \ API, you can quickly identify known bad sites, warn users before they click infected links, and prevent users from posting links to known infected pages from your site. The Web Risk API includes data on more than a million unsafe URLs and stays up to date by examining billions of URLs each day.\nSee the [quick start\
-    \ guide](https://cloud.google.com/web-risk/docs/quickstart)."
+  description: "Web Risk API is a Google Cloud service that lets client applications check URLs against Google's constantly updated lists of unsafe web resources. Unsafe web resources include social engineering sites such as phishing and deceptive sites and sites that host malware or unwanted software. With the Web Risk
+    API, you can quickly identify known bad sites, warn users before they click infected links, and prevent users from posting links to known infected pages from your site. The Web Risk API includes data on more than a million unsafe URLs and stays up to date by examining billions of URLs each day.\nSee the [quick start
+    guide](https://cloud.google.com/web-risk/docs/quickstart)."
 
   doc_url: https://googleapis.dev/python/webrisk/latest/index.html
   dev_url: https://github.com/googleapis/python-webrisk
