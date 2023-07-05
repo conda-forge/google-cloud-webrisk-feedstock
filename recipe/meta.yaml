@@ -1,6 +1,6 @@
 {% set name = "google-cloud-webrisk" %}
-{% set version = "1.12.0" %}
-{% set sha256 = "c469c88c9e11708972479e4b0cc8f7d50852f709ce78382acef4b0aa9b89043d" %}
+{% set version = "1.12.1" %}
+{% set sha256 = "d67840104407b0e57483c4cae6287f846aee40e374a7dff5977c95bfc934df17" %}
 
 package:
   name: {{ name|lower }}
