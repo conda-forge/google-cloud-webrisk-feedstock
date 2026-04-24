@@ -1,13 +1,13 @@
 {% set name = "google-cloud-webrisk" %}
-{% set version = "1.14.4" %}
-{% set sha256 = "9df58251754688dac408da86c50ae49d9bada8b87f59217a627607edc9ccd785" %}
+{% set version = "1.15.0" %}
+{% set sha256 = "ee74e422001f9fb73d5c62459eaedf351131355e0a7dd8efe13aeb73e9d15ba9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
